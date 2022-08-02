@@ -11,7 +11,7 @@ The purpose of using it is transforming coordinates as presented in the Polish e
 ![instruction2](https://github.com/Kotauror/puwg_1992_preparer/blob/main/images/instruction2.png)
 
 2. Replace the sample_data.csv file with your coordinates.
-3. Run `python3 swapiner.py` 
+3. Run `python3 swapiner.py`. It prints the result but also copies to clipboard.  
 4. To test run `pytest` 
 
 
