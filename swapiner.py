@@ -19,4 +19,4 @@ def swapiner(file):
         pyperclip.copy(output)
 
 if __name__ == '__main__':
-    swapiner('sample_data.csv')
+    swapiner('sample_puwg_1992_data.csv')
