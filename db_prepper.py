@@ -7,7 +7,7 @@ def db_prepper(file):
         csv_reader = csv.reader(csv_file, delimiter=' ')
         lines = []
         for row in csv_reader:
-            lines.append([float(row[0]), float(row[1])])
+            lines.append([float(row[1]), float(row[0])])
         print(lines)
 
 if __name__ == '__main__':
